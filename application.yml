@@ -6,3 +6,6 @@ eureka:
    defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
  instance:
   hostname: localhost
+ 
+contact-service:
+ uri: http://CONTACT-SERVICE/contact/user/
